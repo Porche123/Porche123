@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+   main p {
+     font-size: 1em;
+     padding: 1em;
+   
+   }
+
+   /* للشاشات المتوسطة (تابلت) */
+   @media (min-width: 601px) and (max-width: 1024px) {
+     header {
+       font-size: 2em;
+       padding: 1em;
+     }
+
+     main p {
+       font-size: 1.2em;
+       padding: 2em;
+     }
+   }
+
+   /* للشاشات الكبيرة (كمبيوتر) */
+   @media (min-width: 1025px) {
+     header {
+       font-size: 2.5em;
+       padding: 1.5em;
+     }
+
+     main p {
+       font-size: 1.5em;
+       padding: 3em;
+     }
+   }
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+body {
+    font-size: 15pt;
+}
+
+span{
+  color: #03C6FF;
+  text-shadow: 0 1px 1px black;
+}
+header {
+  
+  
+padding: 0px;
+height: 100px;
+width: 100%;
+background-color: #B9B9B9;
+position: fixed;
+top: 0;
+z-index: 999999999999;
+transition: 0.3s;
+border-radius: 10px;
+border-bottom: solid 3px black;
+  
+  
+}
+header li{
+  
+  text-decoration: none;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+align-items: stretch;
+}
+a{
+  
+  text-decoration: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 1px;
+  }
+
+  header ul li a {
+    text-decoration: none;
+    color: #1f67db;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 15px;
+    transition: 0.6s ease;
+  }
+
+  header ul li a:hover {
+    background-color: #1f67db;
+    color: #c7adab;
+  }
+
+header h2 {
+  
+text-align: center;
+}
+
+img{
+  
+  padding: 50px;
+  padding-top: 100px;
+  width: 100%;
+  
+  
+}
+
+#home {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 95vh;
+width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  flex-direction: column;
+}
+
+#services {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 50px;
+  
+  
+  
+  flex-direction: column;
+  
+  text-align: center;
+  background-color:#B9B9B9 ;
+  border-radius: 20px ;
+}
+.titel {
+  text-align: center;
+  color: red;
+  text-shadow: 0 1px 1px black;
+  
+}
+.titel2{
+  
+  color: #03C6FF;
+  text-align: center;
+}
+.gg{
+  
+  text-align: center;
+  padding-top: 150px;
+}
+
+
+.card {
+  
+display: flex;
+flex-direction: column;
+  background-color: #0F60B3;
+  box-shadow: 5px 5px 10px #3D474B;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.card:hover {
+
+ flex-direction: column;
+  transform: scale(1.08);
+  height: 240px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card:hover .bgcard {
+  opacity: 0;
+
+}
+
+.card ion-icon {
+  
+  margin-bottom: 10px;
+  position: absolute;
+  z-index: 10000000;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+
+
+.html{
+  
+  color: #FF6D00;
+  font-size: 90px;
+  
+  padding: 30px;
+
+}
+.css{
+  
+  color: #007EFF;
+  font-size: 90px;
+}
+
+.ht{
+  color: white;
+  padding: 10px;
+  
+}
+.grnd{
+  color: white;
+  text-shadow: 3px 2px 2px black;
+}
+.aa {
+  font-size: 15px;
+font-family: 'poppins', sans-serif;
+color: #FF0E0E;
+text-align: center;
+}
+
+.activejs
+{
+ width: 180px;
+  
+}
+
+.sect{
+  
+  text-align: center;
+}
+
+   
+/* تصميم عام للقسم */
+.skills-section {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 3em;
+    color: #2d4af1;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.skills-content h3 {
+    color: #2d4af1;
+    font-size: 2em;
+}
+
+.skills-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* تصميم الشرائط ديال المهارات */
+.skill-bars {
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill span {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 15px;
+    border-radius: 20px;
+}
